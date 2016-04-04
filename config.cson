@@ -1,0 +1,13 @@
+"*":
+  core:
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    invisibles: {}
+  "exception-reporting":
+    userId: "d3dac27e-406c-6bea-6c45-815634bd7acb"
+  pigments: {}
+  welcome:
+    showOnStartup: false
