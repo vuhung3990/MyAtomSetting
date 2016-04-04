@@ -1,1 +1,15 @@
-.atom
+# Packages
+- pigments
+- atom-beautiful
+- Linter<br/>
+- linter-csslint
+- linter-htmlhint
+- linter-jsonlint
+- linter-jshint
+- file-icons
+- project-manager
+- autocomplete-paths
+- autoclose-html
+- angularjs
+- autocomplete-ionic-framework
+- ionic-framework-snippets
