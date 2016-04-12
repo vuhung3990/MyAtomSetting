@@ -1,0 +1,22 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "fdb60a83-0032-4df8-84b9-67b0d442e76e"
+  "atom-terminal": {}
+  core:
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    invisibles: {}
+  "exception-reporting":
+    userId: "d3dac27e-406c-6bea-6c45-815634bd7acb"
+  pigments: {}
+  "terminal-plus":
+    core: {}
+    style: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

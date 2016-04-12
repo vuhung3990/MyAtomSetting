@@ -1,0 +1,52 @@
+{
+  "name": "autocomplete-ionic-framework",
+  "version": "0.2.2",
+  "description": "Ionic Framework element and attribute autocompletions",
+  "main": "./lib/main",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisgriffith/autocomplete-ionic-framework.git"
+  },
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "devDependencies": {
+    "coffeelint": "^1.9.7",
+    "request": "^2.53.0"
+  },
+  "readme": "# Ionic Framework Autocomplete Package\n\n[Ionic Framework](http://ionicframework.com/) tag and attribute autocompletions in Atom. Install\n[autocomplete-plus](https://github.com/atom-community/autocomplete-plus) before\ninstalling this package.\n\nThis is powered by the list of HTML tags [here](https://raw.githubusercontent.com/chrisgriffith/IonicBrackets/master/HtmlTags.json)\nand HTML attributes [here](https://raw.githubusercontent.com/chrisgriffith/IonicBrackets/master/HtmlAttributes.json)\n\n![html-completions](https://cloud.githubusercontent.com/assets/527875/9741284/7920406c-560e-11e5-8ee9-433a57e796ce.gif)\n\nYou can update the prebuilt list of tags and attributes names and values by\nrunning the `update.coffee` file at the root of the repository and then checking\nin the changed `completions.json` file.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/chrisgriffith/autocomplete-ionic-framework/issues"
+  },
+  "homepage": "https://github.com/chrisgriffith/autocomplete-ionic-framework#readme",
+  "_id": "autocomplete-ionic-framework@0.2.2",
+  "_shasum": "0c72c100a870e44bda37d77200b544ca5d8671a4",
+  "_resolved": "file:../d-11635-11450-fcnzoz/package.tgz",
+  "_from": "../d-11635-11450-fcnzoz/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "coffeelint.json",
+        "completions.json",
+        "package.json"
+      ],
+      ".coffee": [
+        "lib/main.coffee",
+        "lib/provider.coffee",
+        "update.coffee"
+      ]
+    },
+    "folders": []
+  }
+}
